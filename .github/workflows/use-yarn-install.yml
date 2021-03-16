@@ -3,7 +3,7 @@ name: Lint Markdown By Yarn Install
 on: [ push ]
 
 jobs:
-  commitlint:
+  use-by-yarn-install:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

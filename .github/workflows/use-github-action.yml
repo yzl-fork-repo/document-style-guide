@@ -3,13 +3,13 @@ name: Lint Markdown By Github Action
 on: [ push ]
 
 jobs:
-  commitlint:
+  use-by-github-action:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: @lint-md/github-action
+      - name: lint-md-github-action
         uses: lint-md/github-action@v0.0.1
         with:
           files: './docs ./bad'
