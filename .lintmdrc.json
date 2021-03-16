@@ -1,0 +1,6 @@
+{
+  "excludeFiles": [],
+  "rules": {
+    "no-empty-list": 1
+  }
+}
